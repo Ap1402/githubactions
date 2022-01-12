@@ -23,8 +23,8 @@ jobs:
       - name: deploy zip to aws lambda
         uses: appleboy/lambda-action@master
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key_id: AKIAQLLCFR464RZMJRVF
+          aws_secret_access_key: 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
           aws_region: us-east-2
           function_name: function-test
           zip_file: bundle.zip
